@@ -6,9 +6,9 @@ using DynamicsFramework.Entities.OptionSets;
 
 namespace DynamicsFramework.Entities
 {
-    [DataContract()]
+    [DataContract]
     [EntityLogicalName(EntityLogicalName)]
-    public partial class Account : BaseEntity
+    public class Account : BaseEntity
     {
         public const string EntityLogicalName = "account";
 

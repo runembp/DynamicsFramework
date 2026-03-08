@@ -7,7 +7,7 @@ using Microsoft.Xrm.Sdk.Client;
 
 namespace DynamicsFramework.Entities
 {
-    [DataContract()]
+    [DataContract]
     public abstract class BaseEntity : Entity
     {
         public static class BaseFields

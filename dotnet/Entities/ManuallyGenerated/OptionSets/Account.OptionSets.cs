@@ -2,16 +2,16 @@ using System.Runtime.Serialization;
 
 namespace DynamicsFramework.Entities.OptionSets
 {
-    [DataContract()]
+    [DataContract]
     public enum ExampleOptionSet
     {
-        [EnumMember()]
+        [EnumMember]
         FirstOption = 1,
 
-        [EnumMember()]
+        [EnumMember]
         SecondOption = 2,
 
-        [EnumMember()]
+        [EnumMember]
         ThirdOption = 3,
     }
 }

@@ -5,9 +5,9 @@ using Microsoft.Xrm.Sdk.Client;
 
 namespace DynamicsFramework.Entities
 {
-    [DataContract()]
+    [DataContract]
     [EntityLogicalName(EntityLogicalName)]
-    public partial class Contact : BaseEntity
+    public class Contact : BaseEntity
     {
         public const string EntityLogicalName = "contact";
 
