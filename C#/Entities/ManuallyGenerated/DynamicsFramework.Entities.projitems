@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{4a17b634-1f6b-4c2e-8a5a-6fe9d14c4a33}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>DynamicsFramework.Entities</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Account.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\BaseEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Contact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Account.OptionSets.cs" />
+  </ItemGroup>
+</Project>
