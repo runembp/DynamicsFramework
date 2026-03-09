@@ -1,7 +1,7 @@
-Notice that the Microsoft.CrmSdk.CoreAssemblies is on purpose kept to version 8.2.0.2, as this is the latest version that Dynamics CRM 2016 supports, which is the main system I am working on.
+**Notice that the Microsoft.CrmSdk.CoreAssemblies is on purpose kept to version 8.2.0.2**, as this is the latest version that Dynamics CRM 2016 supports, which is the main system I am working on.
 When it comes to creating Plugins on the environment, if you use a version higher than this (9.x.x) or higher, the plugin can be uploaded, but an exception will be thrown when the Step is being executed.
 
-Simply update the nuget package to a newer version if you're running on Cloud, and this won't be a problem for you.
+**Simply update the nuget package to a newer version if you're running on Cloud, and this won't be a problem for you.**
 
 It looks something like this:
 
