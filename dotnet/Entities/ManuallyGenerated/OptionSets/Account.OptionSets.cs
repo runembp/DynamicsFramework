@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace DynamicsFramework.Entities.OptionSets
+namespace DynamicsFramework.Entities.ManuallyGenerated.OptionSets
 {
     [DataContract]
     public enum ExampleOptionSet

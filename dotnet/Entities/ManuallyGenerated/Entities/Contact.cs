@@ -3,7 +3,7 @@ using System.Runtime.Serialization;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Client;
 
-namespace DynamicsFramework.Entities
+namespace DynamicsFramework.Entities.ManuallyGenerated
 {
     [DataContract]
     [EntityLogicalName(EntityLogicalName)]

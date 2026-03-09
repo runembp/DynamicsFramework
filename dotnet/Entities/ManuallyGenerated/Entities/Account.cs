@@ -4,7 +4,7 @@ using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Client;
 using DynamicsFramework.Entities.OptionSets;
 
-namespace DynamicsFramework.Entities
+namespace DynamicsFramework.Entities.ManuallyGenerated
 {
     [DataContract]
     [EntityLogicalName(EntityLogicalName)]

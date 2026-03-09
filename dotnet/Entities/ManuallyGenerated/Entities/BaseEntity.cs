@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Client;
 
-namespace DynamicsFramework.Entities
+namespace DynamicsFramework.Entities.ManuallyGenerated
 {
     [DataContract]
     public abstract class BaseEntity : Entity
