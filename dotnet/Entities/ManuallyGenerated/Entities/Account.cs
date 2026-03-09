@@ -1,8 +1,8 @@
 using System;
 using System.Runtime.Serialization;
+using DynamicsFramework.Entities.ManuallyGenerated.OptionSets;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Client;
-using DynamicsFramework.Entities.OptionSets;
 
 namespace DynamicsFramework.Entities.ManuallyGenerated
 {
